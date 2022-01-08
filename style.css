@@ -1,0 +1,144 @@
+body{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+
+    margin: 0;
+    min-height: 100vh;
+}
+
+.header{
+    display:flex;
+    padding-left: 16px;
+    padding-right: 16px;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background-color: #1f2937;
+
+    margin-bottom: 0;
+}
+
+.header .logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header ul{
+    list-style: none;
+
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.header ul a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+.desc{
+    display: flex;
+    flex : 1;
+    /* flex-wrap: wrap; */  /* rules out grow and shrink */
+    gap: 48px;
+
+    padding-left: 100px;
+    padding-right: 100px;
+
+    background-color: #1f2937;
+}
+
+.desc .text-desc{
+    /* font-size: 18px; */
+    color: #e5e7eb;
+    width: 400px;
+}
+
+
+.desc .text-desc h2{
+    color: #f9faf8;
+}
+
+.desc .text-desc button{
+    border-radius: 10%;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+}
+
+.desc .img-desc{
+    /* background-color: cadetblue; */ 
+}
+
+.desc .img-desc img{
+    height: auto;
+    width:150px;
+    padding: 10px;
+    border : 2px solid  cadetblue;
+}
+
+.info-header{
+    font-size: 36px;
+    color: #1F2937;
+
+    text-align: center;
+}
+
+.random-info{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap : 52px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.random-info .info{
+    max-width: 120px;
+
+}
+
+.random-info .info .text{
+    font-size: 8px;
+}
+
+
+.random-info .info img{
+    width: 100px;
+    height: 100px;
+
+    border: 2px solid royalblue;
+    border-radius: 12%;
+}
+
+
+.quote{
+    padding: 28px;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-style: italic;
+    font-size: small;
+}
+
+.quote .quote-text{
+    margin: 10px;
+}
+
+.quote .quote-by{
+    text-align: right;
+    font-size: medium;
+    font-style: normal;
+    font-weight: 600;
+}
+
+
