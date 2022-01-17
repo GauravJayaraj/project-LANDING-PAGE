@@ -44,7 +44,8 @@ body{
     display: flex;
     flex : 1;
     /* flex-wrap: wrap; */  /* rules out grow and shrink */
-    gap: 48px;
+    align-items: center;
+    justify-content: space-around;
 
     padding-left: 100px;
     padding-right: 100px;
